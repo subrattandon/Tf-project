@@ -82,7 +82,7 @@ resource "aws_instance" "myserver" {
     }
 }
 
-#Enable SGs for HTTPC access
+#Enable SGs for HTTP access
 
 resource "aws_security_group" "my_SGs" {
     vpc_id = aws_vpc.myvpc.id
